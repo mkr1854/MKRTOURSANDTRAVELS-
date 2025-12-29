@@ -1,2 +1,150 @@
-# MKRTOURSANDTRAVELS-
-Taxi Service 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MKR Tours and Travels offers reliable cab service in Hyderabad including airport pickup, local & outstation taxis. Call or WhatsApp 9705401854.">
+  <title>MKR Tours and Travels | Hyderabad Cab Service</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#333;}
+    header {background:#0066cc; color:#fff; padding:40px 20px; text-align:center;}
+    header h1 {margin:0; font-size:36px;}
+    header p {font-size:18px;}
+    section {padding:40px 20px; max-width:1000px; margin:auto;}
+    h2 {color:#0066cc; margin-bottom:20px;}
+    .services, .fleet, .routes {display:flex; flex-wrap:wrap; gap:20px;}
+    .card {flex:1; min-width:250px; border:1px solid #ddd; border-radius:8px; padding:20px; background:#f9f9f9;}
+    .contact-form input, .contact-form textarea, .contact-form button {width:100%; padding:10px; margin-bottom:10px; border-radius:4px; border:1px solid #ccc;}
+    .contact-form button {background:#0066cc; color:#fff; border:none; cursor:pointer;}
+    footer {background:#333; color:#fff; text-align:center; padding:20px;}
+    a.button {display:inline-block; background:#0066cc; color:#fff; padding:10px 20px; text-decoration:none; border-radius:4px;}
+    /* WhatsApp Button */
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background:#25D366;
+      color:#fff;
+      border-radius:50px;
+      padding:15px 20px;
+      font-size:16px;
+      text-decoration:none;
+      box-shadow:0 4px 6px rgba(0,0,0,0.2);
+      display:flex;
+      align-items:center;
+      z-index:1000;
+    }
+    .whatsapp-button img {
+      width:24px;
+      height:24px;
+      margin-right:10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MKR Tours and Travels</h1>
+  <p>Your Trusted Cab & Taxi Service in Hyderabad</p>
+  <p>Airport Transfers | Local & Hourly Cabs | Outstation Trips | Sightseeing Tours</p>
+  <p><strong>Call / WhatsApp:</strong> 9705401854</p>
+  <a href="#contact" class="button">Book Your Cab Now</a>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>MKR Tours and Travels is a Hyderabad-based taxi and travel service committed to providing safe, reliable, and comfortable transportation. We serve families, corporate travelers, and groups with punctual, professional, and affordable cab services.</p>
+  <ul>
+    <li>24/7 cab service in Hyderabad</li>
+    <li>Experienced and courteous drivers</li>
+    <li>Clean, well-maintained vehicles</li>
+    <li>Transparent pricing & no hidden charges</li>
+    <li>On-time pickup & drop</li>
+  </ul>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Airport Transfers</h3>
+      <p>Timely pickups and drops with professional drivers to/from Rajiv Gandhi International Airport (RGIA), Hyderabad.</p>
+    </div>
+    <div class="card">
+      <h3>Local & Hourly Cabs</h3>
+      <p>Flexible packages for city rides, office, shopping, or personal use across Hyderabad.</p>
+    </div>
+    <div class="card">
+      <h3>Outstation Cabs</h3>
+      <p>Travel comfortably from Hyderabad to Tirupati, Srisailam, Bangalore, Chennai, Goa, Vizag, and more.</p>
+    </div>
+    <div class="card">
+      <h3>Sightseeing & Tour Packages</h3>
+      <p>Explore Hyderabad’s top attractions or plan multi-day tours with family and friends.</p>
+    </div>
+  </div>
+</section>
+
+<section id="fleet">
+  <h2>Our Fleet</h2>
+  <div class="fleet">
+    <div class="card">
+      <h3>Sedans</h3>
+      <p>Swift Dzire, Toyota Etios – Ideal for 2–3 passengers.</p>
+    </div>
+    <div class="card">
+      <h3>SUV / MUV</h3>
+      <p>Ertiga, Innova, Innova Crysta – Family comfort for 4–6 passengers.</p>
+    </div>
+    <div class="card">
+      <h3>Tempo Traveller</h3>
+      <p>12–28 seats – Perfect for group travel and tours.</p>
+    </div>
+  </div>
+</section>
+
+<section id="routes">
+  <h2>Popular Outstation Routes</h2>
+  <div class="routes">
+    <div class="card">Hyderabad → Srisailam</div>
+    <div class="card">Hyderabad → Tirupati</div>
+    <div class="card">Hyderabad → Vijayawada</div>
+    <div class="card">Hyderabad → Chennai</div>
+    <div class="card">Hyderabad → Bangalore</div>
+    <div class="card">Hyderabad → Goa</div>
+    <div class="card">Hyderabad → Vizag</div>
+    <div class="card">Hyderabad → Warangal</div>
+    <div class="card">Hyderabad → Kurnool</div>
+    <div class="card">Hyderabad → Nellore</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Hyderabad, Telangana | 📞 Call / WhatsApp: 9705401854 | Available 24/7</p>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="tel" placeholder="Phone Number" required>
+    <input type="text" placeholder="Pickup Location" required>
+    <input type="text" placeholder="Drop Location" required>
+    <input type="date" placeholder="Travel Date" required>
+    <textarea placeholder="Message / Vehicle Type" rows="4"></textarea>
+    <button type="submit">Submit Booking Request</button>
+  </form>
+</section>
+
+<footer>
+  <p>MKR Tours and Travels – Hyderabad</p>
+  <p>Safe • Comfortable • Affordable Travel</p>
+  <p>📞 9705401854 | 🌐 mkrtoursandtravels.in</p>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/919705401854?text=Hello%2C%20I%20want%20to%20book%20a%20cab%20from%20Hyderabad." target="_blank" class="whatsapp-button">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  WhatsApp Us
+</a>
+
+</body>
+</html>
